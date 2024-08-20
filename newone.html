@@ -1,9 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <h4>Wellcome to worldwide MegaMart</h4>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MegaMart Online Store</title>
+    <style>
+        .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+        </style>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -23,17 +65,31 @@
             padding: 14px 20px;
         }
         .banner {
-            background-color: #10100fc1;
-            text-align: center;
-            padding: 50px 20px;
+            width: 464px;
+height: 30px;
+top: 260px;
+left: 210px;
+gap: 0px;
+opacity: 0px;
+font-family: HK Grotesk;
+font-size: 30px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+color: #FFFFFF;
+
+
+
         }
-        .banner h3 {
-            width: 227px;
-            height: 295px;
-            top: 742px;
-            left: 120px;
-            margin: 0;
-            font-size: 2.5em;
+        .banner h5 {
+            width: 574px;
+height: 156px;
+top: 260px;
+left: 210px;
+gap: 0px;
+opacity: 0px;
+
+            
         }
         .banner p {
             font-size: 1.2em;
@@ -51,28 +107,127 @@
             width: 200px;
         }
         .deal-item img {
-            width: 100%;
-            height: auto;
+          width: 84px;
+height: 158px;
+top: 15px;
+left: 71px;
+gap: 0px;
+opacity: 0px;
+
         }
         .deal-item h3 {
-            width: 227px;
-            height: 295px;
-            top: 742px;
-            left: 120px;
-            margin: 10px 0;
+          width: 120px;
+height: 18px;
+top: 200px;
+left: 13px;
+gap: 0px;
+opacity: 0px;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 600;
+line-height: 18px;
+text-align: left;
+
+
         }
         .deal-item p {
-            margin: 5px 0;
+          width: 56px;
+height: 18px;
+top: 228px;
+left: 13px;
+gap: 0px;
+opacity: 0px;
+font-family: HK Grotesk;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+text-align: left;
+
+
         }
+        
         .footer {
             text-align: center;
             padding: 20px;
             background-color: #333;
             color: white;
         }
+        
     </style>
 </head>
 <body>
+
+
+  <div class="dropshow">
+
+    <div class="dropdown">
+      <button class="dropbtn">Groceries</button>
+      <div class="dropdown-content">
+      <a href="#">Galaxy S22 Ultra</a>
+      <a href="#">Galaxy m13</a>
+      <a href="#">Galaxy M33</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Premium Fruits</button>
+      <div class="dropdown-content">
+      <a href="#">Iphone 11</a>
+      <a href="#">Iphone 12</a>
+      <a href="#">Iphone 13</a>
+      </div>
+      </div>
+      <div class="dropdown">
+      <button class="dropbtn">Home and Kitchen</button>
+      <div class="dropdown-content">
+      <a href="#">Tables</a>
+      <a href="#">Chair</a>
+      <a href="#">cup</a>
+      </div>
+      </div>
+      <div class="dropdown">
+          <button class="dropbtn">Fashion</button>
+          <div class="dropdown-content">
+          <a href="#">Panths</a>
+          <a href="#">Shorts</a>
+          <a href="#">Jeans</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Electronics</button>
+          <div class="dropdown-content">
+          <a href="#">Tvs</a>
+          <a href="#">Phones</a>
+          <a href="#">Laptops</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Beauty</button>
+          <div class="dropdown-content">
+          <a href="#">Lipstick</a>
+          <a href="#">shampoo</a>
+          <a href="#">hearcare</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Home Improvement</button>
+          <div class="dropdown-content">
+          <a href="#">Lacks</a>
+          <a href="#">Doors</a>
+          <a href="#">floor</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Sport,Toys&Luggage</button>
+          <div class="dropdown-content">
+          <a href="#">Balls</a>
+          <a href="#">Robots</a>
+          <a href="#">Barby</a>
+          </div>
+        </div>
+        
+  </div>
+    
+      
 
 <div class="navbar">
     <a href="#home">Home</a>
@@ -81,8 +236,10 @@
 </div>
 
 <div class="banner">
-    <h3>Best Deal Online on Smart Watches</h3>
-    <p>UP TO 80% OFF SMART WEARABLE</p>
+    <h5>Best Deal Online on Smart Watches</h5>
+    <h1>Smart Wearable</h1>
+    <h5>Up to 80 % off</h5>
+       
 </div>
 
 <div class="deals">
